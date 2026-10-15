@@ -1,0 +1,35 @@
+{
+  "name": "flash-marketplace",
+  "metadata": {
+    "description": "Plugins economicos para GitHub Copilot CLI / agent host",
+    "version": "1.0.0"
+  },
+  "owner": {
+    "name": "miroyong",
+    "url": "https://github.com/miroyong"
+  },
+  "plugins": [
+    {
+      "name": "flash-economia",
+      "description": "Agentes economicos em DeepSeek V4.1 Flash: orquestrador com fan-out paralelo, worker de leitura descartavel e verificador PASS/FAIL. Corta contexto, delega leitura a subagentes e proibe varredura pesada.",
+      "version": "1.0.0",
+      "author": {
+        "name": "miroyong"
+      },
+      "keywords": [
+        "deepseek",
+        "flash",
+        "economia-de-tokens",
+        "orquestracao",
+        "subagentes"
+      ],
+      "license": "MIT",
+      "repository": "https://github.com/miroyong/flash-economia",
+      "source": {
+        "source": "github",
+        "repo": "miroyong/flash-economia",
+        "path": "plugins/flash-economia"
+      }
+    }
+  ]
+}
