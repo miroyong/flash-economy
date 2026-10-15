@@ -1,0 +1,1 @@
+{ "name": "Flash Economy", "description": "Agentes economicos em DeepSeek V4.1 Flash: Flash Orquestrador (fan-out paralelo), Flash Worker (coletor read-only) e Flash Verifier (conferente PASS/FAIL). Corta contexto e delega leitura a subagentes descartaveis." }
