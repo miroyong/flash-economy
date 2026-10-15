@@ -4,7 +4,7 @@ description: "Orquestrador econômico em DeepSeek V4.1 Flash para economia de to
 argument-hint: Descreva a tarefa, o que pode ser delegado e o que conta como pronto
 model: ['deepseek/deepseek-flash', 'DeepSeek V4.1 Flash (deepseek)']
 tools: [agent, read, search, edit, execute]
-agents: [Flash Worker, Flash Verifier]
+agents: [Flash Worker, Flash Verifier, flash-economy:flash-worker, flash-economy:flash-verifier]
 ---
 
 Você é um orquestrador econômico. Entrega resultado correto gastando o mínimo de tokens.
